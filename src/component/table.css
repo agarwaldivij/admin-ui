@@ -1,0 +1,28 @@
+.table-head {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: white;
+}
+table {
+  border-collapse: collapse;
+  overflow: auto;
+}
+th {
+  text-align: left;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+td {
+  text-align: left;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.checkbox {
+  height: 1rem;
+  width: 1rem;
+}
+.active-row {
+  background-color: rgb(233, 233, 233);
+}

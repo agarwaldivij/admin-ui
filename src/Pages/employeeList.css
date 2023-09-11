@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  padding: 2.5rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+
+.grid-template-row {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.search-bar {
+  margin-bottom: 2rem;
+}
+
+#searchbar {
+  height: 30px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  border: solid grey 1px;
+  box-sizing: border-box;
+}
+.delete-button {
+  background-color: rgb(215, 19, 49);
+  color: white;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+}

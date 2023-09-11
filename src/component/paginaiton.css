@@ -1,0 +1,37 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+}
+.page-item {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.active {
+  background-color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  color: white;
+}
+.inactive {
+  background-color: white;
+  border: 1px solid cornflowerblue;
+  color: cornflowerblue;
+}
+.arrow-buttons {
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+}
+.arrow-buttons :hover {
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid cornflowerblue;
+}
